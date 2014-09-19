@@ -1,5 +1,5 @@
 {
-  "name": "diet",
+  "name": "diet-qs",
   "version": "0.1.0",
   "description": "A querystring parser used in diet. Supports multidimensional arrays & objects. Converts values into their correct data types.",
   "homepage": "http://dietjs.com/",
