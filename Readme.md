@@ -16,7 +16,7 @@ There are only two functions that you need to use `qs.parse` & `qs.stringify`.
 
 ### **qs.parse**
 Converts querystring to JSON.
-```
+```js
 var qs = require('diet-qs')
 
 // stringify
@@ -41,7 +41,7 @@ qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&o
 
 ### **qs.stringify**
 Converts JSON to querystring.
-```
+```js
 var qs = require('diet-qs')
 
 // stringify
