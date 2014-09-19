@@ -1,0 +1,33 @@
+{
+  "name": "diet",
+  "version": "0.1.0",
+  "description": "A querystring parser used in diet. Supports multidimensional arrays & objects. Converts values into their correct data types.",
+  "homepage": "http://dietjs.com/",
+  "keywords": [
+    "qs",
+    "querystring",
+    "parse querystring",
+    "stringify querystring"
+  ],
+  "bugs": {
+    "url": "http://github.com/adamhalasz/diet-qs/issues",
+    "email": "mail@adamhalasz.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamhalasz/diet-qs.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Halász Ádám",
+    "email": "mail@adamhalasz.com",
+    "url": "http://adamhalasz.com/"
+  },
+  "dependencies": {
+    "sugar": "1.4.1"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
