@@ -59,8 +59,8 @@ var result = qs.stringify({
 	}
 })
 
-console.log(result)
-// --> string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4
+// becomes
+string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4
 
 ```
 
