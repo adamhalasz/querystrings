@@ -1,4 +1,4 @@
-![QueryStrings Logo](http://i.imgur.com/2dpS59t.png)
+![Query String Logo](http://i.imgur.com/Egwu9j1.png)
 
 ### An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. 
 
