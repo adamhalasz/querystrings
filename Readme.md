@@ -1,5 +1,6 @@
-# QueryStrings
-An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. 
+![QueryStrings Logo](http://i.imgur.com/2dpS59t.png)
+
+### An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. 
 
 ## **Features**
  - Supports nested multi dimensional arrays and objects 
