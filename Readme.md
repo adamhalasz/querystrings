@@ -14,7 +14,7 @@ npm install querystrings
 ## **Usage**
 There are only two functions that you need to use `qs.parse` & `qs.stringify`.
 
-### **qs.parse**
+### **qs.parse(** *value* **)**
 Converts querystring to JSON.
 ```js
 var qs = require('querystrings')
