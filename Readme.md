@@ -11,7 +11,7 @@ An advanced Query String parser that converts values into their correct Data Typ
 npm install querystrings
 ```
 
-## **Usage**
+## **API**
 There are only two functions that you need to use `qs.parse` & `qs.stringify`.
 
 ### **qs.parse(** *value* **)**
