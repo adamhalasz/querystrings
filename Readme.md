@@ -2,7 +2,7 @@
 An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. 
 
 ## **Features**
- - Supports multi dimensional arrays and objects 
+ - Supports nested multi dimensional arrays and objects 
  - Converts values into their correct data types. 
  - Supports all data types: `strings`, `integers`, `booleans`, `arrays` & `objects`.
  
@@ -12,10 +12,10 @@ npm install querystrings
 ```
 
 ## **API**
-There are only two functions that you need to use `qs.parse` & `qs.stringify`.
+There are only two functions that you need to use `qs.parse` and `qs.stringify`.
 
 ### **qs.parse(** *value* **)**
-Converts querystring to JSON.
+Convert a Query String into a JSON Object.
 ```js
 var qs = require('querystrings')
 
@@ -40,7 +40,7 @@ qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&o
 ```
 
 ### **qs.stringify(** *value* **)**
-Converts JSON to querystring.
+Convert a JSON Object into a Query String.
 ```js
 var qs = require('querystrings')
 
