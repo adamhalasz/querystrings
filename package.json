@@ -1,21 +1,32 @@
 {
-  "name": "diet-qs",
-  "version": "0.1.0",
-  "description": "A querystring parser used in diet. Supports multidimensional arrays & objects. Converts values into their correct data types.",
-  "homepage": "http://dietjs.com/",
+  "name": "querystrings",
+  "version": "0.2.0",
+  "description": "An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. ",
   "keywords": [
     "qs",
-    "querystring",
-    "parse querystring",
-    "stringify querystring"
+    "query string",
+    "parse query string",
+    "stringify query string",
+    "query",
+    "string",
+    "nested",
+    "numbers",
+    "booleans",
+    "objects",
+    "arrays",
+    "url",
+    "uri",
+    "convert",
+    "transform",
+    "traverse"
   ],
   "bugs": {
-    "url": "http://github.com/adamhalasz/diet-qs/issues",
+    "url": "http://github.com/adamhalasz/querystrings/issues",
     "email": "mail@adamhalasz.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamhalasz/diet-qs.git"
+    "url": "https://github.com/adamhalasz/querystrings.git"
   },
   "license": "MIT",
   "author": {

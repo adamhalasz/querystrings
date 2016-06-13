@@ -1,5 +1,5 @@
-# diet-qs
-A querystring parser used in [diet](http://dietjs.com). 
+# QueryStrings
+An advanced Query String parser that converts values into their correct Data Types and supports Nested Query Parameters. 
 
 ## **Features**
  - Supports multi dimensional arrays and objects 
@@ -8,7 +8,7 @@ A querystring parser used in [diet](http://dietjs.com).
  
 ## **Install**
 ```bash
-npm install diet-qs
+npm install querystrings
 ```
 
 ## **Usage**
@@ -17,7 +17,7 @@ There are only two functions that you need to use `qs.parse` & `qs.stringify`.
 ### **qs.parse**
 Converts querystring to JSON.
 ```js
-var qs = require('diet-qs')
+var qs = require('querystrings')
 
 // stringify
 qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4')
@@ -42,7 +42,7 @@ qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&o
 ### **qs.stringify**
 Converts JSON to querystring.
 ```js
-var qs = require('diet-qs')
+var qs = require('querystrings')
 
 // stringify
 var result = qs.stringify({
