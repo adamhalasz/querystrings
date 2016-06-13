@@ -19,7 +19,7 @@ Convert a Query String into a JSON Object.
 ```js
 var qs = require('querystrings')
 
-// stringify
+// parse
 var result = qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4')
 
 // the result is:
@@ -59,16 +59,8 @@ var result = qs.stringify({
 	}
 })
 
-// the result is (but linear):
-string=value
-&yes=true
-&no=false
-&array[0]=1
-&array[1]=2
-&object[a]=hello
-&object[b]=world
-&object[c][a]=3
-&object[c][a]=4
+// the result is:
+string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4
 
 ```
 
