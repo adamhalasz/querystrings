@@ -17,9 +17,10 @@ There are only two functions that you need to use `qs.parse` and `qs.stringify`.
 ### **qs.parse(** *value* **)**
 Convert a Query String into a JSON Object.
 ```js
+// require the module
 var qs = require('querystrings')
 
-// parse
+// parse a query string into a query object
 var result = qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&object[b]=world&object[c][a]=3&object[c][a]=4')
 
 // the result is:
@@ -42,9 +43,10 @@ var result = qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&obje
 ### **qs.stringify(** *value* **)**
 Convert a JSON Object into a Query String.
 ```js
+// require the module
 var qs = require('querystrings')
 
-// stringify
+// stringify a query object into a query string
 var result = qs.stringify({
 	string: 'value',
 	yes: true,
