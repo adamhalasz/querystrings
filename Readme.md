@@ -39,7 +39,7 @@ qs.parse('string=value&yes=true&no=false&array[0]=1&array[1]=2&object[a]=hello&o
 
 ```
 
-### **qs.stringify**
+### **qs.stringify(** *value* **)**
 Converts JSON to querystring.
 ```js
 var qs = require('querystrings')
