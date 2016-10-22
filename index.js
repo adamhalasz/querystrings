@@ -165,10 +165,13 @@ QueryString.parse = function(body){
 	var split = body.split(/\&/gi);
 	split.forEach(function(string){
 		var split = string.split('=');
-		var key = decodeURIComponent(split[0]);
-		var value = decodeURIComponent(split[1]);
-		//console.log(key,'=',value);
-		QueryString.traverse(result, key, value, split.length)
+		if(split){
+    		var key = decodeURIComponent(escape(split[0]));
+    		var value = decodeURIComponent(escape(split[1]));
+    		
+    		//console.log(key,'=',value);
+    		QueryString.traverse(result, key, value, split.length)
+		}
 			//result[key] = QueryString.value(value);
 	});
 	//console.log('PARSE RESULT', result);
